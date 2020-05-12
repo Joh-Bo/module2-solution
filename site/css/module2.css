@@ -11,7 +11,8 @@ h1{
 	border: 2px solid black;
 	margin: 30px 20px 10px 20px;
 	width: 30%;
-	float: right;
+	float: left;
+	background: grey;
 
 	}
 
@@ -22,10 +23,26 @@ h1{
 
 }
 #chicken, #beef, #sushi{
-	margin-bottom: 15px;
+	width: 150px;
+	margin: 0;
+	padding: 5px;
 	float: right;
+	
+	border: 1px solid black;
+	text-align: center;
 
 }
+#chicken{
+	background-color: #FFA07A;
+}
+#beef{
+ 	background-color: #E61313;
+ 	color: #fff;
+}
+#sushi{
+	background-color: #F6EFB3;
+}
+
 .text{
 	padding: 10px 10px 10px 10px;
 	float: left;
