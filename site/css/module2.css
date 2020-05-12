@@ -1,5 +1,6 @@
 body{
 	box-sizing: border-box;
+	font-family: "Comic Sans MS";
 
 }
 
@@ -14,6 +15,7 @@ h1{
 	width: 30%;
 	float: left;
 	background: grey;
+	font-size: 0.8em;
 
 	}
 
@@ -42,6 +44,7 @@ h1{
 }
 #sushi{
 	background-color: #F6EFB3;
+	color: #000;
 }
 
 .text{
@@ -61,11 +64,13 @@ h1{
 }
 /*Tablet View*/
 @media only screen and (max-width: 991px) and (min-width: 768px){
-
-
+	.container-box{
+		width: 50%;
+	}
 }
 
 /*Mobile View*/
 @media only screen and (max-width: 767px){
+
 
 }
