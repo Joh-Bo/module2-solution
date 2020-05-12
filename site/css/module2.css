@@ -5,6 +5,7 @@ body{
 
 h1{
 	text-align: center;
+	font-family: "Comic Sans MS";
 }
 
 .container-box {
@@ -27,7 +28,7 @@ h1{
 	margin: 0;
 	padding: 5px;
 	float: right;
-	
+	font-weight: bold;
 	border: 1px solid black;
 	text-align: center;
 
