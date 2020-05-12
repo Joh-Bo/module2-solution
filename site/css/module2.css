@@ -1,0 +1,53 @@
+body{
+	box-sizing: border-box;
+
+}
+
+h1{
+	text-align: center;
+}
+
+.container-box {
+	border: 2px solid black;
+	margin: 30px 20px 10px 20px;
+	width: 30%;
+	float: right;
+
+	}
+
+.container-titre{
+	display: block;
+	margin: 20px 20px 20px 20px;
+	float: right;
+
+}
+#chicken, #beef, #sushi{
+	margin-bottom: 15px;
+	float: right;
+
+}
+.text{
+	padding: 10px 10px 10px 10px;
+	float: left;
+	text-align: justify;
+
+}
+
+
+/*Desktop View*/
+@media only screen and (min-width:992px) {
+	div{
+		/*width: 33%;
+		display: inline;*/
+	}
+}
+/*Tablet View*/
+@media only screen and (max-width: 991px) and (min-width: 768px){
+
+
+}
+
+/*Mobile View*/
+@media only screen and (max-width: 767px){
+
+}
