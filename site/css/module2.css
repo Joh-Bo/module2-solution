@@ -65,7 +65,10 @@ h1{
 /*Tablet View*/
 @media only screen and (max-width: 991px) and (min-width: 768px){
 	.container-box{
-		width: 50%;
+		width: 40%;
+	}
+	#sushi-box{
+		width: 85%;
 	}
 }
 
