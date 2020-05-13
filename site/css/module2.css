@@ -25,6 +25,12 @@ h1{
 	float: right;
 
 }
+
+#chicken-box{}
+#beef-box{}
+#sushi-box{}
+
+/*CSS for Title Sytle & placement*/
 #chicken, #beef, #sushi{
 	width: 150px;
 	margin: 0;
@@ -75,5 +81,17 @@ h1{
 /*Mobile View*/
 @media only screen and (max-width: 767px){
 
-
+	#chicken-box{
+		width: 90%;
+		margin: 0 10px 0 20px;
+	}
+	#beef-box{
+		width: 90%;
+		margin: 15px 10px 0 20px;
+		
+	}
+	#sushi-box{
+		width: 90%;
+		margin: 15px 10px 0 20px;
+	}
 }
